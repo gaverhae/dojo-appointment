@@ -9,4 +9,5 @@
                  [metosin/compojure-api "1.1.12"]
                  [http-kit "2.3.0"]
                  [ring/ring-core "1.6.3"]]
-  :ring {:handler dojo-appointment.core/handler})
+  :ring {:handler dojo-appointment.core/handler}
+  :plugins [[lein-ring "0.12.4"]])
